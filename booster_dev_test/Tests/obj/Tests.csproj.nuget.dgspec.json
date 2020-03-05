@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\gitprojects\\booster_dev_test\\booster_dev_test\\Tests\\Tests.csproj": {}
+    "/Users/gawohe/projectdir/stream_test/booster_dev_test/Tests/Tests.csproj": {}
   },
   "projects": {
-    "C:\\gitprojects\\booster_dev_test\\booster_dev_test\\ConsoleApp\\ConsoleApp.csproj": {
+    "/Users/gawohe/projectdir/stream_test/booster_dev_test/ConsoleApp/ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\gitprojects\\booster_dev_test\\booster_dev_test\\ConsoleApp\\ConsoleApp.csproj",
+        "projectUniqueName": "/Users/gawohe/projectdir/stream_test/booster_dev_test/ConsoleApp/ConsoleApp.csproj",
         "projectName": "ConsoleApp",
-        "projectPath": "C:\\gitprojects\\booster_dev_test\\booster_dev_test\\ConsoleApp\\ConsoleApp.csproj",
-        "packagesPath": "C:\\Users\\Gawo He\\.nuget\\packages\\",
-        "outputPath": "C:\\gitprojects\\booster_dev_test\\booster_dev_test\\ConsoleApp\\obj\\",
+        "projectPath": "/Users/gawohe/projectdir/stream_test/booster_dev_test/ConsoleApp/ConsoleApp.csproj",
+        "packagesPath": "/Users/gawohe/.nuget/packages/",
+        "outputPath": "/Users/gawohe/projectdir/stream_test/booster_dev_test/ConsoleApp/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Gawo He\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/gawohe/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -47,27 +47,33 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\gitprojects\\booster_dev_test\\booster_dev_test\\Tests\\Tests.csproj": {
+    "/Users/gawohe/projectdir/stream_test/booster_dev_test/Tests/Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\gitprojects\\booster_dev_test\\booster_dev_test\\Tests\\Tests.csproj",
+        "projectUniqueName": "/Users/gawohe/projectdir/stream_test/booster_dev_test/Tests/Tests.csproj",
         "projectName": "Tests",
-        "projectPath": "C:\\gitprojects\\booster_dev_test\\booster_dev_test\\Tests\\Tests.csproj",
-        "packagesPath": "C:\\Users\\Gawo He\\.nuget\\packages\\",
-        "outputPath": "C:\\gitprojects\\booster_dev_test\\booster_dev_test\\Tests\\obj\\",
+        "projectPath": "/Users/gawohe/projectdir/stream_test/booster_dev_test/Tests/Tests.csproj",
+        "packagesPath": "/Users/gawohe/.nuget/packages/",
+        "outputPath": "/Users/gawohe/projectdir/stream_test/booster_dev_test/Tests/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Gawo He\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/gawohe/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -78,8 +84,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\gitprojects\\booster_dev_test\\booster_dev_test\\ConsoleApp\\ConsoleApp.csproj": {
-                "projectPath": "C:\\gitprojects\\booster_dev_test\\booster_dev_test\\ConsoleApp\\ConsoleApp.csproj"
+              "/Users/gawohe/projectdir/stream_test/booster_dev_test/ConsoleApp/ConsoleApp.csproj": {
+                "projectPath": "/Users/gawohe/projectdir/stream_test/booster_dev_test/ConsoleApp/ConsoleApp.csproj"
               }
             }
           }
@@ -113,10 +119,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,13 +1,13 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\gitprojects\\booster_dev_test\\booster_dev_test\\Tests\\Tests.csproj",
+    "projectUniqueName": "/Users/gawohe/projectdir/stream_test/booster_dev_test/Tests/Tests.csproj",
     "projectName": "Tests",
-    "projectPath": "C:\\gitprojects\\booster_dev_test\\booster_dev_test\\Tests\\Tests.csproj",
-    "outputPath": "C:\\gitprojects\\booster_dev_test\\booster_dev_test\\Tests\\obj\\",
+    "projectPath": "/Users/gawohe/projectdir/stream_test/booster_dev_test/Tests/Tests.csproj",
+    "outputPath": "/Users/gawohe/projectdir/stream_test/booster_dev_test/Tests/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
       "netcoreapp2.2"
@@ -18,8 +18,8 @@
     "frameworks": {
       "netcoreapp2.2": {
         "projectReferences": {
-          "C:\\gitprojects\\booster_dev_test\\booster_dev_test\\ConsoleApp\\ConsoleApp.csproj": {
-            "projectPath": "C:\\gitprojects\\booster_dev_test\\booster_dev_test\\ConsoleApp\\ConsoleApp.csproj"
+          "/Users/gawohe/projectdir/stream_test/booster_dev_test/ConsoleApp/ConsoleApp.csproj": {
+            "projectPath": "/Users/gawohe/projectdir/stream_test/booster_dev_test/ConsoleApp/ConsoleApp.csproj"
           }
         }
       }
@@ -53,10 +53,16 @@
         }
       },
       "imports": [
-        "net461"
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
       ],
       "assetTargetFallback": true,
-      "warn": true
+      "warn": true,
+      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
     }
   }
 }

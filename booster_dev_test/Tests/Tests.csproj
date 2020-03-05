@@ -20,10 +20,10 @@
 
     <ItemGroup>
       <Reference Include="DevTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-        <HintPath>..\..\..\..\Users\Gawo He\Downloads\NET Development Test v5\.NET Development Test v5\DevTest.dll</HintPath>
+        <HintPath>..\DevTest.dll</HintPath>
       </Reference>
       <Reference Include="NLipsum.Core, Version=0.9.0.0, Culture=neutral, PublicKeyToken=593e1df460e1bda0">
-        <HintPath>..\..\..\..\Users\Gawo He\Downloads\NET Development Test v5\.NET Development Test v5\NLipsum.Core.dll</HintPath>
+        <HintPath>..\NLipsum.Core.dll</HintPath>
       </Reference>
     </ItemGroup>
 
