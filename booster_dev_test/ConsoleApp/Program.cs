@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using DevTest;
 using System.Runtime.CompilerServices;
@@ -12,7 +14,8 @@ namespace ConsoleApp
         //Run with default test settings
         static void Main(string[] args)
         {
-            ReadStream(100, 1, null, true);
+            //Adjust any values to changes the length of the output text
+            ReadStream(1000, 1, null, false);
         }
 
         /// <summary>
@@ -30,6 +33,10 @@ namespace ConsoleApp
             int charCount = 0;
             int wordCount = 0;
             bool isWord = false;
+
+            string longestWord = "";
+            string currentWord = "";
+            List<string> words = new List<string>();
             
             string completedString = "";
 
@@ -53,10 +60,11 @@ namespace ConsoleApp
                     
                     char charValue = Encoding.ASCII.GetString(buffer).ToCharArray()[0];
 
-                    //Check if it's a readable character
-                    if (!Char.IsWhiteSpace(charValue) && charValue != '\0')
+                    //Check if it's only characters - Lorum ipsum shouldn't have anything numbers/punctuations
+                    if (Char.IsLetter(charValue))
                     {
                         charCount++;
+                        currentWord += charValue;
                         if (!isWord)
                         {
                             isWord = true;
@@ -68,6 +76,14 @@ namespace ConsoleApp
                         {
                             wordCount++;
                             isWord = false;
+
+                            if (longestWord.Length < currentWord.Length)
+                            {
+                                longestWord = currentWord;
+                            }
+
+                            words.Add(currentWord);
+                            currentWord = "";
                         }
                     }
 
@@ -81,9 +97,10 @@ namespace ConsoleApp
                         Console.WriteLine(completedString);
                         Console.WriteLine($"Char count: {charCount}");
                         Console.WriteLine($"Word count: {charCount}");
+                        Console.WriteLine($"Longest word: {longestWord}");
                     
                         //Block for readability/testing purposes 
-                        Thread.Sleep(50 );
+                        Thread.Sleep(1);
                     }
                 }
 
@@ -93,12 +110,31 @@ namespace ConsoleApp
                 }
             }
 
-            return new IpsumStreamResult
+            var result = new IpsumStreamResult
             {
                 FinalString = completedString,
                 CharCount = charCount,
-                WordCount = wordCount
+                WordCount = wordCount,
+                LongestWord = longestWord,
+                
+                Words = words
             };
+            
+            Console.WriteLine("Done!");
+            Console.WriteLine(result.FinalString);
+            Console.WriteLine($"Char count: {result.CharCount}");
+            Console.WriteLine($"Word count: {result.WordCount}");
+            Console.WriteLine($"Longest word: {result.LongestWord}");
+            
+            Console.WriteLine($"FiveLongestWords: {String.Join(" ", result.FiveLongestWords)}");
+            Console.WriteLine($"FiveShortestWords: {String.Join(" ", result.FiveShortestWords)}");
+
+            foreach (KeyValuePair<int,char> pair in result.CharCountTotal)
+            {
+                Console.WriteLine($"Occurence: {pair.Key}, Char: {pair.Value}");
+            }
+
+            return result;
         }
     }
 }

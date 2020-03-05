@@ -1,4 +1,6 @@
+using System;
 using ConsoleApp;
+using DevTest;
 using NLipsum.Core;
 using NUnit.Framework;
 
@@ -62,6 +64,18 @@ namespace Tests
             Assert.AreEqual(text, result.FinalString);
             Assert.AreEqual(6, result.CharCount);
             Assert.AreEqual(1, result.WordCount);
+        }
+        
+        [Test]
+        public void MultipleWordsTest()
+        {
+            string text = "ok go stop now";
+            Console.WriteLine(LipsumGenerator.Generate(1));
+            
+            IpsumStreamResult result = BoosterApp.ReadStream(text.Length, 1, text);
+            Assert.AreEqual(text, result.FinalString);
+            Assert.AreEqual(11, result.CharCount);
+            Assert.AreEqual(4, result.WordCount);
         }
     }
 }

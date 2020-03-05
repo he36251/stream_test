@@ -2,63 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="537a4513-46c7-4e42-9335-462337c1181d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tests/bin/Debug/netcoreapp2.2/Tests.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/bin/Debug/netcoreapp2.2/nunit_random_seed.tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/obj/Debug/netcoreapp2.2/Testing.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/obj/Debug/netcoreapp2.2/Testing.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/obj/Debug/netcoreapp2.2/Testing.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.booster_dev_test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.booster_dev_test/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.booster_dev_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.booster_dev_test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/IpsumStreamResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/IpsumStreamResult.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp2.2/ConsoleApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp2.2/ConsoleApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp2.2/ConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp2.2/ConsoleApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/Testing.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Tests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/bin/Debug/netcoreapp2.2/ConsoleApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/bin/Debug/netcoreapp2.2/ConsoleApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/bin/Debug/netcoreapp2.2/ConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/bin/Debug/netcoreapp2.2/ConsoleApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/bin/Debug/netcoreapp2.2/DevTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/bin/Debug/netcoreapp2.2/DevTest.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/bin/Debug/netcoreapp2.2/NLipsum.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/bin/Debug/netcoreapp2.2/NLipsum.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/bin/Debug/netcoreapp2.2/NUnit3.TestAdapter.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/bin/Debug/netcoreapp2.2/NUnit3.TestAdapter.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/bin/Debug/netcoreapp2.2/NUnit3.TestAdapter.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/bin/Debug/netcoreapp2.2/NUnit3.TestAdapter.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/bin/Debug/netcoreapp2.2/Testing.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/bin/Debug/netcoreapp2.2/Testing.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/bin/Debug/netcoreapp2.2/Testing.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/Debug/netcoreapp2.2/Testing.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/bin/Debug/netcoreapp2.2/Testing.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/bin/Debug/netcoreapp2.2/Testing.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/bin/Debug/netcoreapp2.2/Testing.runtimeconfig.dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/bin/Debug/netcoreapp2.2/Testing.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/bin/Debug/netcoreapp2.2/Testing.runtimeconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/bin/Debug/netcoreapp2.2/nunit.engine.netstandard.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/bin/Debug/netcoreapp2.2/nunit.engine.netstandard.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/bin/Debug/netcoreapp2.2/nunit_random_seed.tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/obj/Debug/netcoreapp2.2/TestProject.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/Debug/netcoreapp2.2/TestProject.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/obj/Debug/netcoreapp2.2/TestProject.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/Debug/netcoreapp2.2/TestProject.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/obj/Debug/netcoreapp2.2/TestProject.Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/Debug/netcoreapp2.2/TestProject.Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/obj/Debug/netcoreapp2.2/TestProject.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/Debug/netcoreapp2.2/TestProject.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/obj/Debug/netcoreapp2.2/TestProject.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/Debug/netcoreapp2.2/TestProject.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/obj/Debug/netcoreapp2.2/TestProject.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/Debug/netcoreapp2.2/TestProject.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/obj/Debug/netcoreapp2.2/Testing.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/Debug/netcoreapp2.2/Testing.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/obj/Debug/netcoreapp2.2/Testing.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/Debug/netcoreapp2.2/Testing.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/obj/Debug/netcoreapp2.2/Testing.Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/Debug/netcoreapp2.2/Testing.Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/obj/Debug/netcoreapp2.2/Testing.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/Debug/netcoreapp2.2/Testing.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/obj/Debug/netcoreapp2.2/Testing.csproj.CopyComplete" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/Debug/netcoreapp2.2/Testing.csproj.CopyComplete" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/obj/Debug/netcoreapp2.2/Testing.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/obj/Debug/netcoreapp2.2/Testing.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/Debug/netcoreapp2.2/Testing.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/obj/Debug/netcoreapp2.2/Testing.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/obj/Debug/netcoreapp2.2/Testing.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/bin/Debug/netcoreapp2.2/Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/obj/Debug/netcoreapp2.2/Testing.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/obj/TestProject.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/TestProject.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/obj/TestProject.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/TestProject.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/obj/TestProject.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/TestProject.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/obj/TestProject.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/TestProject.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/obj/Testing.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/Testing.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/obj/Testing.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/Testing.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/obj/Testing.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/Testing.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/obj/Testing.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/Testing.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booster_dev_test.sln" beforeDir="false" afterPath="$PROJECT_DIR$/booster_dev_test.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Tests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Tests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/bin/Debug/netcoreapp2.2/ConsoleApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/bin/Debug/netcoreapp2.2/ConsoleApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/bin/Debug/netcoreapp2.2/ConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/bin/Debug/netcoreapp2.2/ConsoleApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/bin/Debug/netcoreapp2.2/Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/bin/Debug/netcoreapp2.2/Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/bin/Debug/netcoreapp2.2/Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/bin/Debug/netcoreapp2.2/Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/bin/Debug/netcoreapp2.2/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/bin/Debug/netcoreapp2.2/nunit_random_seed.tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/obj/Debug/netcoreapp2.2/Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/Debug/netcoreapp2.2/Tests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/obj/Debug/netcoreapp2.2/Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/Debug/netcoreapp2.2/Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/obj/Debug/netcoreapp2.2/Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/Debug/netcoreapp2.2/Tests.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,13 +41,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/TestProject/UnitTest1.cs" />
-        <option value="$PROJECT_DIR$/ConsoleApp/IpsumStreamResult.cs" />
         <option value="C:/Program Files/dotnet/sdk/2.2.203/Microsoft.Common.CurrentVersion.targets" />
         <option value="$PROJECT_DIR$/Testing/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/ConsoleApp/CustomStream.cs" />
         <option value="$PROJECT_DIR$/Testing/Testing.csproj" />
         <option value="$PROJECT_DIR$/Tests/Tests.cs" />
         <option value="$PROJECT_DIR$/ConsoleApp/Program.cs" />
+        <option value="$PROJECT_DIR$/ConsoleApp/IpsumStreamResult.cs" />
       </list>
     </option>
   </component>
@@ -145,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583389324983</updated>
-      <workItem from="1583389327593" duration="19976000" />
+      <workItem from="1583389327593" duration="24909000" />
     </task>
     <servers />
   </component>
@@ -174,22 +133,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="436" height="466" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583410738933" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1583411858104">
+    <state width="1877" height="190" key="GridCell.Tab.0.bottom" timestamp="1583416276722">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583411858104" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1583411858104">
+    <state width="1877" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583416276722" />
+    <state width="1877" height="190" key="GridCell.Tab.0.center" timestamp="1583416276722">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583411858104" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1583411858104">
+    <state width="1877" height="190" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583416276722" />
+    <state width="1877" height="190" key="GridCell.Tab.0.left" timestamp="1583416276722">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583411858104" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1583411858104">
+    <state width="1877" height="190" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583416276722" />
+    <state width="1877" height="190" key="GridCell.Tab.0.right" timestamp="1583416276722">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583411858104" />
+    <state width="1877" height="190" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583416276722" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1583411858104">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -276,68 +235,16 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/ConsoleApp/Program.cs</url>
-          <line>44</line>
+          <line>51</line>
           <properties documentPath="$PROJECT_DIR$/ConsoleApp/Program.cs" initialLine="52">
             <startOffsets>
-              <option value="1546" />
+              <option value="1802" />
             </startOffsets>
             <endOffsets>
-              <option value="1576" />
+              <option value="1832" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ConsoleApp/CustomStream.cs</url>
-          <line>72</line>
-          <properties documentPath="$PROJECT_DIR$/ConsoleApp/CustomStream.cs" initialLine="72">
-            <startOffsets>
-              <option value="2063" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2089" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ConsoleApp/CustomStream.cs</url>
-          <line>50</line>
-          <properties documentPath="$PROJECT_DIR$/ConsoleApp/CustomStream.cs" initialLine="50">
-            <startOffsets>
-              <option value="1578" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1604" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ConsoleApp/CustomStream.cs</url>
-          <line>19</line>
-          <properties documentPath="$PROJECT_DIR$/ConsoleApp/CustomStream.cs" initialLine="19">
-            <startOffsets>
-              <option value="613" />
-            </startOffsets>
-            <endOffsets>
-              <option value="648" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ConsoleApp/Program.cs</url>
-          <line>36</line>
-          <properties documentPath="$PROJECT_DIR$/ConsoleApp/Program.cs" initialLine="37">
-            <startOffsets>
-              <option value="1258" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1291" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
