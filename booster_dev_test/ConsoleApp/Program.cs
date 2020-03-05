@@ -23,7 +23,7 @@ namespace ConsoleApp
                 inputLength += readKey.KeyChar;
             } while (readKey.Key != ConsoleKey.Enter);
             
-            if (!int.TryParse(inputLength, out int charLength))
+            if (!int.TryParse(inputLength.Trim(), out int charLength))
             {
                 throw new Exception("Please enter a number");
             }
