@@ -13,8 +13,23 @@ namespace ConsoleApp
         //Run with default test settings
         static void Main(string[] args)
         {
+            Console.WriteLine("Enter max character length and hit enter");
+            string inputLength = "";
+
+            ConsoleKeyInfo readKey;
+            do
+            {
+                readKey = Console.ReadKey();
+                inputLength += readKey.KeyChar;
+            } while (readKey.Key != ConsoleKey.Enter);
+            
+            if (!int.TryParse(inputLength, out int charLength))
+            {
+                throw new Exception("Please enter a number");
+            }
+
             //Adjust any values to changes the length of the output text
-            ReadStream(1000, 1, null, false);
+            ReadStream(charLength, 1, null, false);
         }
 
         /// <summary>
@@ -40,7 +55,7 @@ namespace ConsoleApp
             string completedString = "";
 
             //Tests uses custom strings, whereas running this app normally uses the LorumIpsumStream generator
-            var stream = customString == null ? new LorumIpsumStream(allocatedSize) : new CustomStream(allocatedSize, customString);
+            LorumIpsumStream stream = customString == null ? new LorumIpsumStream(allocatedSize) : new CustomStream(allocatedSize, customString);
             
             using (stream)
             {
@@ -111,7 +126,7 @@ namespace ConsoleApp
                 }
             }
 
-            var result = new IpsumStreamResult
+            IpsumStreamResult result = new IpsumStreamResult
             {
                 FinalString = completedString,
                 CharCount = charCount,
@@ -121,15 +136,18 @@ namespace ConsoleApp
                 Words = words
             };
             
+            Console.WriteLine();
             Console.WriteLine("Done!");
             Console.WriteLine(result.FinalString);
             Console.WriteLine($"Char count: {result.CharCount}");
             Console.WriteLine($"Word count: {result.WordCount}");
             Console.WriteLine($"Longest word: {result.LongestWord}");
             
-            Console.WriteLine($"FiveLongestWords: {String.Join(" ", result.FiveLongestWords)}");
-            Console.WriteLine($"FiveShortestWords: {String.Join(" ", result.FiveShortestWords)}");
+            Console.WriteLine($"Five longest words: {String.Join(" ", result.FiveLongestWords)}");
+            Console.WriteLine($"Five shortest words: {String.Join(" ", result.FiveShortestWords)}");
 
+            Console.WriteLine($"Ten most frequent words: {String.Join(" ", result.TenFrequentWords)}");
+            
             foreach (KeyValuePair<char, int> pair in result.CharCountTotal)
             {
                 Console.WriteLine($"Char: {pair.Key}, Occurence: {pair.Value}");

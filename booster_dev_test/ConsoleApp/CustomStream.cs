@@ -73,7 +73,7 @@ namespace ConsoleApp
                 if (_byteQueue.Count <= 0)
                     PopulateQueue();
                 
-                if (_byteQueue.TryTake(out var num2))
+                if (_byteQueue.TryTake(out byte num2))
                 {
                     buffer[index] = num2;
                     ++num1;

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 
@@ -10,17 +11,38 @@ namespace ConsoleApp
         public int CharCount { get; set; }
         public int WordCount { get; set; }
         public string LongestWord { get; set; }
+        public List<string> Words { get; set; }
+        
         public List<string> FiveLongestWords => Words.OrderByDescending(x => x.Length).Take(5).ToList();
         public List<string> FiveShortestWords => Words.OrderBy(x => x.Length).Take(5).ToList();
-        
-        public List<string> Words { get; set; }
 
+        public List<string> TenFrequentWords
+        {
+            get
+            {
+                Dictionary<string, int> wordDictionary = new Dictionary<string, int>();
+                
+                foreach (string word in Words)
+                {
+                    if (!wordDictionary.TryAdd(word, 1))
+                    {
+                        wordDictionary[word] += 1;
+                    }
+                }
+                
+                return wordDictionary.OrderByDescending(x => x.Value).Select(x => x.Key).Take(10).ToList();
+            }
+        }
+
+        /// <summary>
+        /// Helper method
+        /// </summary>
         private string FlattenWords
         {
             get
             {
                 //Use StringBuilder to save memory - handles only a single string object in runtime
-                var sb = new StringBuilder();
+                StringBuilder sb = new StringBuilder();
                 foreach (string word in Words)
                 {
                     sb.Append(word);
@@ -30,6 +52,9 @@ namespace ConsoleApp
             }
         }
 
+        /// <summary>
+        /// Ordered dictionary of chars descending by their occurence
+        /// </summary>
         public Dictionary<char, int> CharCountTotal
         {
             get
@@ -37,7 +62,7 @@ namespace ConsoleApp
                 char[] chars = FlattenWords.ToCharArray();
                 
                 //Count occurence of each character
-                var charDictionary = new Dictionary<char, int>();
+                Dictionary<char, int> charDictionary = new Dictionary<char, int>();
                 foreach (char c in chars)
                 {
                     if (!charDictionary.TryAdd(c, 1))

@@ -5,6 +5,10 @@ using NUnit.Framework;
 
 namespace Tests
 {
+    
+    /// <summary>
+    /// Basic tests for the Program.cs file
+    /// </summary>
     public class Tests
     {
         [SetUp]
@@ -114,6 +118,46 @@ namespace Tests
                 "tester"
             };
             Assert.AreEqual(stringList, result.FiveShortestWords);
+        }
+        
+        [Test]
+        public void MostFrequentWordTest()
+        {
+            string text = "There are many variations of passages of Lorem Ipsum available, but the majority have suffered many many many";
+
+            IpsumStreamResult result = BoosterApp.ReadStream(text.Length, 1, text);
+            Assert.AreEqual(text, result.FinalString);
+            Assert.AreEqual("many", result.TenFrequentWords[0]);
+        }
+        
+        [Test]
+        public void MostFrequentWordsTest()
+        {
+            string text = "There are of many variations of variations of many many many";
+
+            IpsumStreamResult result = BoosterApp.ReadStream(text.Length, 1, text);
+            Assert.AreEqual(text, result.FinalString);
+            
+            List<string> frequentWords = new List<string>
+            {
+                "many",
+                "of",
+                "variations",
+                "There",
+                "are"
+            };
+            
+            Assert.AreEqual(frequentWords, result.TenFrequentWords);
+        }
+        
+        [Test]
+        public void CharCountTest()
+        {
+            string text = " asdf  asf sefa sfeeek  oj";
+
+            IpsumStreamResult result = BoosterApp.ReadStream(text.Length, 1, text);
+            Assert.AreEqual(text, result.FinalString);
+            Assert.AreEqual(3, result.CharCountTotal['a']);
         }
     }
 }
