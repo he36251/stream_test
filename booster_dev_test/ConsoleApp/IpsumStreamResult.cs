@@ -30,15 +30,23 @@ namespace ConsoleApp
             }
         }
 
-        public Dictionary<int, char> CharCountTotal
+        public Dictionary<char, int> CharCountTotal
         {
             get
             {
                 char[] chars = FlattenWords.ToCharArray();
+                
                 //Count occurence of each character
-                var charDictionary = chars.ToDictionary(x => FlattenWords.Count(y => x == y), x => x);
+                var charDictionary = new Dictionary<char, int>();
+                foreach (char c in chars)
+                {
+                    if (!charDictionary.TryAdd(c, 1))
+                    {
+                        charDictionary[c] += 1;
+                    }
+                }
 
-                return charDictionary.OrderByDescending(x => x.Key).ToDictionary(x => x.Key, x => x.Value);
+                return charDictionary.OrderByDescending(x => x.Value).ToDictionary(x => x.Key, x => x.Value);
             }
         } 
         

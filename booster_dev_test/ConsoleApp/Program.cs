@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using DevTest;
 using System.Runtime.CompilerServices;
@@ -92,7 +91,7 @@ namespace ConsoleApp
 
                     if (debug)
                     {
-                        //Stats
+                        //Realtime stats
                         Console.Clear();
                         Console.WriteLine(completedString);
                         Console.WriteLine($"Char count: {charCount}");
@@ -104,9 +103,11 @@ namespace ConsoleApp
                     }
                 }
 
+                //Is last letter a part of a word
                 if (isWord)
                 {
                     wordCount++;
+                    words.Add(currentWord);
                 }
             }
 
@@ -129,9 +130,9 @@ namespace ConsoleApp
             Console.WriteLine($"FiveLongestWords: {String.Join(" ", result.FiveLongestWords)}");
             Console.WriteLine($"FiveShortestWords: {String.Join(" ", result.FiveShortestWords)}");
 
-            foreach (KeyValuePair<int,char> pair in result.CharCountTotal)
+            foreach (KeyValuePair<char, int> pair in result.CharCountTotal)
             {
-                Console.WriteLine($"Occurence: {pair.Key}, Char: {pair.Value}");
+                Console.WriteLine($"Char: {pair.Key}, Occurence: {pair.Value}");
             }
 
             return result;
