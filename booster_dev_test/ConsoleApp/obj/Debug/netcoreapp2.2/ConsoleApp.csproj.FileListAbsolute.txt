@@ -1,0 +1,14 @@
+C:\gitprojects\booster_dev_test\booster_dev_test\ConsoleApp\bin\Debug\netcoreapp2.2\ConsoleApp.deps.json
+C:\gitprojects\booster_dev_test\booster_dev_test\ConsoleApp\bin\Debug\netcoreapp2.2\ConsoleApp.runtimeconfig.json
+C:\gitprojects\booster_dev_test\booster_dev_test\ConsoleApp\bin\Debug\netcoreapp2.2\ConsoleApp.runtimeconfig.dev.json
+C:\gitprojects\booster_dev_test\booster_dev_test\ConsoleApp\bin\Debug\netcoreapp2.2\ConsoleApp.dll
+C:\gitprojects\booster_dev_test\booster_dev_test\ConsoleApp\bin\Debug\netcoreapp2.2\ConsoleApp.pdb
+C:\gitprojects\booster_dev_test\booster_dev_test\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.csprojAssemblyReference.cache
+C:\gitprojects\booster_dev_test\booster_dev_test\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\gitprojects\booster_dev_test\booster_dev_test\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.AssemblyInfoInputs.cache
+C:\gitprojects\booster_dev_test\booster_dev_test\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.AssemblyInfo.cs
+C:\gitprojects\booster_dev_test\booster_dev_test\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.dll
+C:\gitprojects\booster_dev_test\booster_dev_test\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.pdb
+C:\gitprojects\booster_dev_test\booster_dev_test\ConsoleApp\bin\Debug\netcoreapp2.2\DevTest.dll
+C:\gitprojects\booster_dev_test\booster_dev_test\ConsoleApp\bin\Debug\netcoreapp2.2\NLipsum.Core.dll
+C:\gitprojects\booster_dev_test\booster_dev_test\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.csproj.CopyComplete
