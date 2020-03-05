@@ -7,19 +7,15 @@
       <change beforePath="$PROJECT_DIR$/ConsoleApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp2.2/ConsoleApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp2.2/ConsoleApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp2.2/ConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp2.2/ConsoleApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/Testing.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/Testing.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testing/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/UnitTest1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testing/bin/Debug/netcoreapp2.2/ConsoleApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/bin/Debug/netcoreapp2.2/ConsoleApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testing/bin/Debug/netcoreapp2.2/ConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/bin/Debug/netcoreapp2.2/ConsoleApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/bin/Debug/netcoreapp2.2/Testing.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/bin/Debug/netcoreapp2.2/Testing.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testing/bin/Debug/netcoreapp2.2/Testing.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/bin/Debug/netcoreapp2.2/Testing.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testing/bin/Debug/netcoreapp2.2/Testing.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/bin/Debug/netcoreapp2.2/Testing.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testing/bin/Debug/netcoreapp2.2/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/bin/Debug/netcoreapp2.2/nunit_random_seed.tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/obj/Debug/netcoreapp2.2/Testing.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/obj/Debug/netcoreapp2.2/Testing.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testing/obj/Debug/netcoreapp2.2/Testing.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/obj/Debug/netcoreapp2.2/Testing.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testing/obj/Debug/netcoreapp2.2/Testing.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/obj/Debug/netcoreapp2.2/Testing.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testing/obj/Debug/netcoreapp2.2/Testing.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Testing/obj/Debug/netcoreapp2.2/Testing.pdb" afterDir="false" />
     </list>
@@ -48,9 +44,9 @@
         <option value="$PROJECT_DIR$/ConsoleApp/IpsumStreamResult.cs" />
         <option value="C:/Program Files/dotnet/sdk/2.2.203/Microsoft.Common.CurrentVersion.targets" />
         <option value="$PROJECT_DIR$/Testing/Testing.csproj" />
+        <option value="$PROJECT_DIR$/Testing/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/ConsoleApp/CustomStream.cs" />
         <option value="$PROJECT_DIR$/ConsoleApp/Program.cs" />
-        <option value="$PROJECT_DIR$/Testing/UnitTest1.cs" />
       </list>
     </option>
   </component>
@@ -107,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583389324983</updated>
-      <workItem from="1583389327593" duration="17561000" />
+      <workItem from="1583389327593" duration="19460000" />
     </task>
     <servers />
   </component>
@@ -121,90 +117,90 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="342" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583389837648" />
-    <state width="405" height="466" key="DebuggerActiveHint" timestamp="1583404950474">
+    <state width="436" height="466" key="DebuggerActiveHint" timestamp="1583410738933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="405" height="466" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583404950474" />
-    <state width="1877" height="190" key="GridCell.Tab.0.bottom" timestamp="1583407267729">
+    <state width="436" height="466" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583410738933" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1583411155012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583407267729" />
-    <state width="1877" height="190" key="GridCell.Tab.0.center" timestamp="1583407267729">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583411155012" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1583411155012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="190" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583407267729" />
-    <state width="1877" height="190" key="GridCell.Tab.0.left" timestamp="1583407267729">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583411155012" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1583411155012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="190" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583407267729" />
-    <state width="1877" height="190" key="GridCell.Tab.0.right" timestamp="1583407267729">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583411155012" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1583411155012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="190" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583407267729" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1583406802093">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583411155012" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1583411155012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583406802093" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1583406802093">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583411155012" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1583411155012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583406802093" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1583406802093">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583411155012" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1583411155012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583406802093" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1583406802093">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583411155012" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1583411155012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583406802093" />
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1583406802094">
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583411155012" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1583411155012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583406802094" />
-    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1583406802093">
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583411155012" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1583411155012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583406802093" />
-    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1583406802093">
+    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583411155012" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1583411155012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583406802093" />
-    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1583406802093">
+    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583411155012" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1583411155012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583406802093" />
-    <state width="1877" height="348" key="GridCell.Tab.3.bottom" timestamp="1583406802094">
+    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583411155012" />
+    <state width="1877" height="348" key="GridCell.Tab.3.bottom" timestamp="1583411155012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.3.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583406802094" />
-    <state width="1877" height="348" key="GridCell.Tab.3.center" timestamp="1583406802094">
+    <state width="1877" height="348" key="GridCell.Tab.3.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583411155012" />
+    <state width="1877" height="348" key="GridCell.Tab.3.center" timestamp="1583411155012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.3.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583406802094" />
-    <state width="1877" height="348" key="GridCell.Tab.3.left" timestamp="1583406802094">
+    <state width="1877" height="348" key="GridCell.Tab.3.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583411155012" />
+    <state width="1877" height="348" key="GridCell.Tab.3.left" timestamp="1583411155012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.3.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583406802094" />
-    <state width="1877" height="348" key="GridCell.Tab.3.right" timestamp="1583406802094">
+    <state width="1877" height="348" key="GridCell.Tab.3.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583411155012" />
+    <state width="1877" height="348" key="GridCell.Tab.3.right" timestamp="1583411155012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.3.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583406802094" />
-    <state width="1877" height="348" key="GridCell.Tab.4.bottom" timestamp="1583406802094">
+    <state width="1877" height="348" key="GridCell.Tab.3.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583411155012" />
+    <state width="1877" height="348" key="GridCell.Tab.4.bottom" timestamp="1583411155012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.4.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583406802094" />
-    <state width="1877" height="348" key="GridCell.Tab.4.center" timestamp="1583406802094">
+    <state width="1877" height="348" key="GridCell.Tab.4.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583411155012" />
+    <state width="1877" height="348" key="GridCell.Tab.4.center" timestamp="1583411155012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.4.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583406802094" />
-    <state width="1877" height="348" key="GridCell.Tab.4.left" timestamp="1583406802094">
+    <state width="1877" height="348" key="GridCell.Tab.4.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583411155012" />
+    <state width="1877" height="348" key="GridCell.Tab.4.left" timestamp="1583411155012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.4.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583406802094" />
-    <state width="1877" height="348" key="GridCell.Tab.4.right" timestamp="1583406802094">
+    <state width="1877" height="348" key="GridCell.Tab.4.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583411155012" />
+    <state width="1877" height="348" key="GridCell.Tab.4.right" timestamp="1583411155012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.4.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583406802094" />
+    <state width="1877" height="348" key="GridCell.Tab.4.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583411155012" />
     <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size" timestamp="1583397203104">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -227,16 +223,68 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/ConsoleApp/Program.cs</url>
-          <line>59</line>
-          <properties documentPath="$PROJECT_DIR$/ConsoleApp/Program.cs" initialLine="65">
+          <line>44</line>
+          <properties documentPath="$PROJECT_DIR$/ConsoleApp/Program.cs" initialLine="52">
             <startOffsets>
-              <option value="2019" />
+              <option value="1550" />
             </startOffsets>
             <endOffsets>
-              <option value="2074" />
+              <option value="1580" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ConsoleApp/CustomStream.cs</url>
+          <line>72</line>
+          <properties documentPath="$PROJECT_DIR$/ConsoleApp/CustomStream.cs" initialLine="72">
+            <startOffsets>
+              <option value="2063" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2089" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ConsoleApp/CustomStream.cs</url>
+          <line>50</line>
+          <properties documentPath="$PROJECT_DIR$/ConsoleApp/CustomStream.cs" initialLine="50">
+            <startOffsets>
+              <option value="1578" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1604" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ConsoleApp/CustomStream.cs</url>
+          <line>19</line>
+          <properties documentPath="$PROJECT_DIR$/ConsoleApp/CustomStream.cs" initialLine="19">
+            <startOffsets>
+              <option value="613" />
+            </startOffsets>
+            <endOffsets>
+              <option value="648" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ConsoleApp/Program.cs</url>
+          <line>36</line>
+          <properties documentPath="$PROJECT_DIR$/ConsoleApp/Program.cs" initialLine="37">
+            <startOffsets>
+              <option value="1262" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1295" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

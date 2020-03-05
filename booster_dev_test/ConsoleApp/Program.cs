@@ -34,15 +34,7 @@ namespace ConsoleApp
             string completedString = "";
 
             //Testing uses custom strings, whereas running this app normally uses the LorumIpsumStream generator
-            LorumIpsumStream stream;
-            if (String.IsNullOrWhiteSpace(customString))
-            {
-                stream = new LorumIpsumStream(allocatedSize);
-            }
-            else
-            {
-                stream = new CustomStream(allocatedSize, customString);
-            }
+            var stream = customString == null ? new LorumIpsumStream(allocatedSize) : new CustomStream(allocatedSize, customString);
             
             using (stream)
             {
@@ -50,6 +42,11 @@ namespace ConsoleApp
 
                 while (true)
                 {
+                    if (maxLength <= overallCount)
+                    {
+                        break;
+                    }
+                    
                     int bytesRead = stream.Read(buffer, 0, 2);
                     if (bytesRead == 0)
                         break;
@@ -75,11 +72,6 @@ namespace ConsoleApp
                     }
 
                     overallCount++;
-                    if (overallCount > maxLength)
-                    {
-                        break;
-                    }
-
                     completedString += charValue;
 
                     if (debug)

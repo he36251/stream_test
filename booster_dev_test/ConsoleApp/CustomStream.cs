@@ -13,7 +13,7 @@ namespace ConsoleApp
         private readonly BlockingCollection<byte> _byteQueue = new BlockingCollection<byte>();
         private readonly int _requiredTotalKB;
         private readonly string _rawText;
-        private long ReadTotalKB { get; set; }
+        private long _ReadTotalKB { get; set; }
 
         public CustomStream(int requiredTotalKB, string customString)
         {
@@ -25,11 +25,11 @@ namespace ConsoleApp
         //Just read normal text
         public override int Read(byte[] buffer, int offset, int count)
         {
-            if (ReadTotalKB > _requiredTotalKB)
+            if (_ReadTotalKB > _requiredTotalKB)
                 return 0;
             
             int num = Read(buffer, count);
-            ReadTotalKB += num / 1024;
+            _ReadTotalKB += num / 1024;
             return num;
         }
 

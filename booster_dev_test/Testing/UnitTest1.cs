@@ -27,12 +27,23 @@ namespace Testing
             
             IpsumStreamResult result = BoosterApp.ReadStream(text.Length, 1, text);
             Assert.AreEqual(text, result.FinalString);
+            Assert.AreEqual(0, result.CharCount);
+            Assert.AreEqual(0, result.WordCount);
         }
         
         [Test]
         public void WhitespaceTest()
         {
             string text = " ";
+            
+            IpsumStreamResult result = BoosterApp.ReadStream(text.Length, 1, text);
+            Assert.AreEqual(text, result.FinalString);
+        }
+        
+        [Test]
+        public void SingleCharTest()
+        {
+            string text = "y";
             
             IpsumStreamResult result = BoosterApp.ReadStream(text.Length, 1, text);
             Assert.AreEqual(text, result.FinalString);
