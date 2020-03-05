@@ -1,8 +1,6 @@
 ﻿using System;
-using System.IO;
 using System.Text;
 using DevTest;
-using NLipsum.Core;
 using System.Runtime.CompilerServices;
 using System.Threading;
 
@@ -11,9 +9,10 @@ namespace ConsoleApp
 {
     class BoosterApp
     {
+        //Run with default test settings
         static void Main(string[] args)
         {
-            ReadStream(100, 1);
+            ReadStream(100, 1, null, true);
         }
 
         /// <summary>
@@ -27,67 +26,56 @@ namespace ConsoleApp
         /// <returns></returns>
         public static IpsumStreamResult ReadStream(int maxLength, int allocatedSize, string customString = null, bool debug = false)
         {
-            //Check if a number argument is present. Use default value if not.
-           
-            // if (args.Length == 0)
-            // {
-            //     Console.WriteLine($"Please enter a number. Using default value: {maxLength}");
-            // }
-            // else
-            // {
-            //     bool numberParser = Int32.TryParse(args[0], out maxLength);
-            //     if (!numberParser)
-            //     {
-            //         int defaultLength = 100;
-            //
-            //         Console.WriteLine($"Please enter a number. Using default value: {defaultLength}");
-            //         maxLength = defaultLength;
-            //     }
-            // }
-
-
-            string text = LipsumGenerator.Generate(1);
-
-            // Console.WriteLine(text);
-
             int overallCount = 0;
             int charCount = 0;
-
+            int wordCount = 0;
+            bool isWord = false;
+            
             string completedString = "";
 
-            LorumIpsumStream stream = null;
-            
+            //Testing uses custom strings, whereas running this app normally uses the LorumIpsumStream generator
+            LorumIpsumStream stream;
             if (String.IsNullOrWhiteSpace(customString))
             {
                 stream = new LorumIpsumStream(allocatedSize);
             }
             else
             {
-                stream = new CustomStream(customString);
+                stream = new CustomStream(allocatedSize, customString);
             }
-
-
+            
             using (stream)
             {
-                //Since we are checking per char, use 1 byte
-                byte[] buffer = new byte[1];
+                byte[] buffer = new byte[2];
 
                 while (true)
                 {
-                    int bytesRead = stream.Read(buffer, 0, 1);
+                    int bytesRead = stream.Read(buffer, 0, 2);
                     if (bytesRead == 0)
                         break;
-
-                    char charValue = Encoding.UTF8.GetString(buffer).ToCharArray()[0];
+                    
+                    char charValue = Encoding.ASCII.GetString(buffer).ToCharArray()[0];
 
                     //Check if it's a readable character
-                    if (!Char.IsControl(charValue))
+                    if (!Char.IsWhiteSpace(charValue) && charValue != '\0')
                     {
                         charCount++;
+                        if (!isWord)
+                        {
+                            isWord = true;
+                        }
+                    }
+                    else
+                    {
+                        if (isWord)
+                        {
+                            wordCount++;
+                            isWord = false;
+                        }
                     }
 
                     overallCount++;
-                    if (overallCount >= maxLength)
+                    if (overallCount > maxLength)
                     {
                         break;
                     }
@@ -99,7 +87,8 @@ namespace ConsoleApp
                         //Stats
                         Console.Clear();
                         Console.WriteLine(completedString);
-                        Console.WriteLine($"Chars: {charCount}");
+                        Console.WriteLine($"Char count: {charCount}");
+                        Console.WriteLine($"Word count: {charCount}");
                     
                         //Block for readability/testing purposes 
                         Thread.Sleep(50 );
@@ -110,7 +99,8 @@ namespace ConsoleApp
             return new IpsumStreamResult
             {
                 FinalString = completedString,
-                CharCount = charCount
+                CharCount = charCount,
+                WordCount = wordCount
             };
         }
     }

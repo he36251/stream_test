@@ -1,4 +1,5 @@
 using ConsoleApp;
+using NLipsum.Core;
 using NUnit.Framework;
 
 namespace Testing
@@ -11,10 +12,30 @@ namespace Testing
         }
 
         [Test]
-        public void Test1()
+        public void StandardLipsumTest()
         {
-            BoosterApp.ReadStream(100, 1);
-            Assert.Pass();
+            string text = LipsumGenerator.Generate(1);
+            
+            IpsumStreamResult result = BoosterApp.ReadStream(text.Length, 1, text);
+            Assert.AreEqual(text, result.FinalString);
+        }
+
+        [Test]
+        public void EmptyStringTest()
+        {
+            string text = "";
+            
+            IpsumStreamResult result = BoosterApp.ReadStream(text.Length, 1, text);
+            Assert.AreEqual(text, result.FinalString);
+        }
+        
+        [Test]
+        public void WhitespaceTest()
+        {
+            string text = " ";
+            
+            IpsumStreamResult result = BoosterApp.ReadStream(text.Length, 1, text);
+            Assert.AreEqual(text, result.FinalString);
         }
     }
 }
