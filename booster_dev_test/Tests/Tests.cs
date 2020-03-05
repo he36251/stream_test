@@ -2,7 +2,7 @@ using ConsoleApp;
 using NLipsum.Core;
 using NUnit.Framework;
 
-namespace Testing
+namespace Tests
 {
     public class Tests
     {
@@ -38,6 +38,8 @@ namespace Testing
             
             IpsumStreamResult result = BoosterApp.ReadStream(text.Length, 1, text);
             Assert.AreEqual(text, result.FinalString);
+            Assert.AreEqual(0, result.CharCount);
+            Assert.AreEqual(0, result.WordCount);
         }
         
         [Test]
@@ -47,6 +49,19 @@ namespace Testing
             
             IpsumStreamResult result = BoosterApp.ReadStream(text.Length, 1, text);
             Assert.AreEqual(text, result.FinalString);
+            Assert.AreEqual(1, result.CharCount);
+            Assert.AreEqual(1, result.WordCount);
+        }
+        
+        [Test]
+        public void SingleWordTest()
+        {
+            string text = "single";
+            
+            IpsumStreamResult result = BoosterApp.ReadStream(text.Length, 1, text);
+            Assert.AreEqual(text, result.FinalString);
+            Assert.AreEqual(6, result.CharCount);
+            Assert.AreEqual(1, result.WordCount);
         }
     }
 }

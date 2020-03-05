@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\gitprojects\\booster_dev_test\\booster_dev_test\\Testing\\Testing.csproj",
-    "projectName": "Testing",
-    "projectPath": "C:\\gitprojects\\booster_dev_test\\booster_dev_test\\Testing\\Testing.csproj",
-    "outputPath": "C:\\gitprojects\\booster_dev_test\\booster_dev_test\\Testing\\obj\\",
+    "projectUniqueName": "C:\\gitprojects\\booster_dev_test\\booster_dev_test\\Tests\\Tests.csproj",
+    "projectName": "Tests",
+    "projectPath": "C:\\gitprojects\\booster_dev_test\\booster_dev_test\\Tests\\Tests.csproj",
+    "outputPath": "C:\\gitprojects\\booster_dev_test\\booster_dev_test\\Tests\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

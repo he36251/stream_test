@@ -4,7 +4,7 @@ using DevTest;
 using System.Runtime.CompilerServices;
 using System.Threading;
 
-[assembly:InternalsVisibleTo("Testing")]
+[assembly:InternalsVisibleTo("Tests")]
 namespace ConsoleApp
 {
     class BoosterApp
@@ -33,7 +33,7 @@ namespace ConsoleApp
             
             string completedString = "";
 
-            //Testing uses custom strings, whereas running this app normally uses the LorumIpsumStream generator
+            //Tests uses custom strings, whereas running this app normally uses the LorumIpsumStream generator
             var stream = customString == null ? new LorumIpsumStream(allocatedSize) : new CustomStream(allocatedSize, customString);
             
             using (stream)
@@ -85,6 +85,11 @@ namespace ConsoleApp
                         //Block for readability/testing purposes 
                         Thread.Sleep(50 );
                     }
+                }
+
+                if (isWord)
+                {
+                    wordCount++;
                 }
             }
 
